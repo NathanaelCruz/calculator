@@ -1,19 +1,42 @@
 :root {
     --bg-button: #f0f0f0;
+    --bg-button-darken: #536651;
+    --bg-button-operation: #48B54A;
+    --bg-button-operation-darken: #308b31;
+    --bg-button-digit-secundary: #303030;
+    --bg-button-digit-secundary-darken: #1b1b1b;
     --border-button: solid 1px #888;
 }
 
 .button {
     font-size: 1.4em;
-    background-color: var(--bg-button);
+    /* background-color: var(--bg-button); */
+    background: transparent;
     border: none;
-    border-right: var(--border-button);
-    border-bottom: var(--border-button);
+    border-right: none;
+    border-bottom: none;
     outline: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: var(--bg-button-darken);
 }
 
 .button:active {
-    background-color: #ccc;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.button.secundary {
+    background-color: var(--bg-button-digit-secundary);
+    font-weight: 700;
+}
+
+.button.secundary:hover {
+    background-color: var(--bg-button-digit-secundary-darken);
 }
 
 .button.double {
@@ -25,10 +48,14 @@
 }
 
 .button.operation {
-    background-color: #fa8231;
+    background-color: var(--bg-button-operation);
     color: #fff;
 }
 
+.button.operation:hover {
+    background-color: var(--bg-button-operation-darken);
+}
+
 .button.operation:active {
-    background-color: #fa8231cc;
+    /* background-color: #fa8231cc; */
 }

@@ -7,6 +7,9 @@
     font-family: "RobotoMono", monospace;
 }
 
+
+/* sohail da pexels dono do background */
+
 body {
     display: flex;
     height: 100vh;
@@ -15,5 +18,7 @@ body {
     text-align: center;
     color: #fff;
     overflow: hidden;
-    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }

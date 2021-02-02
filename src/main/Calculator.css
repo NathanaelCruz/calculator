@@ -1,9 +1,15 @@
 .calculator {
-    height: 320px;
+    height: 380px;
     width: 235px;
-    border-radius: 5px;
     overflow: hidden;
     display: grid;
+    padding: 5px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr repeat(5, 48px);
+    grid-gap: 3px;
+    background: linear-gradient(to bottom, #3331328f, #1a1819ab);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 2px solid;
+    border-image: linear-gradient(150deg, transparent, #3331328f, transparent, #fff, transparent, #1a1819ab, transparent) 1 round;
 }

@@ -7,6 +7,7 @@ export default props =>
         ${props.operation ? 'operation' : ''}
         ${props.double ? 'double' : ''}
         ${props.triple ? 'triple' : ''}
+        ${props.secundary ? ' secundary' : ''}
     `}>
     {props.label}
 </button>
