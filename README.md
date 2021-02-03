@@ -4,7 +4,7 @@
 <section data-markdown>
   
   ![Screen 01](https://github.com/NathanaelCruz/images_resource_projects/blob/master/Images/calc01.png)
-  <img src="https://github.com/NathanaelCruz/images_resource_projects/blob/master/Images/calc02.png" width="280"/>
+  <img src="https://github.com/NathanaelCruz/images_resource_projects/blob/master/Images/calc02.png" width="240"/>
   <img src="https://github.com/NathanaelCruz/images_resource_projects/blob/master/Images/calc03.png" width="280"/>
   <img src="https://github.com/NathanaelCruz/images_resource_projects/blob/master/Images/calc04.png" width="280"/>
   
